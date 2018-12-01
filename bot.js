@@ -44,7 +44,7 @@ client.on('message', msg => {
     msg.channel.sendMessage('http://twitch.tv/itsoktocry666');
   }
   if (msg.content.toLowerCase() === '2. sezon şampiyonu') {
-    msg.channel.sendMessage('bi dakika entera basıyorum.. heh Comprades Of Heaven');
+    msg.channel.sendMessage('bi dakika entera basıyorum.. heh Comrades Of Heaven');
   }
   if (msg.content.toLowerCase() === '3. sezon şampiyonu') {
     msg.channel.sendMessage('Massive Stroke :star2: ');
@@ -63,39 +63,5 @@ client.on('message', msg => {
     msg.channel.sendMessage("Keşke o'nu da böyle kolay silebilsem. 100 mesajı sildiğin gibi... Zalımın botu...");
   }
 });
-
-const Discord = require('discord.js');
-
-const cevaplar = [
-    "evet",
-    "hayır",
-    "belki",
-    "olabilir",
-    "daha sonra tekrar sor",
-    "imkansız"
-];
-
-exports.run = function(client, message, args) {
-    var soru = args.join(' ');
-
-    var cevap = cevaplar[Math.floor(Math.random() * cevaplar.length)];
-
-    if(!soru) return message.reply('Bir soru belirt. **Doğru Kullanım**: ?8ball <soru>')
-    else message.channel.send(cevap)
-
-};  
-
-exports.conf = {
-  enabled: true, 
-  guildOnly: true, 
-  aliases: [],
-  permLevel: 0 
-};
-
-exports.help = {
-  name: '8ball', 
-  description: 'Sihirli 8ball sorularınızı cevaplar',
-  usage: '8ball <soru>'
-};
 
 client.login(ayarlar.token);
