@@ -14,7 +14,7 @@ client.on('message', msg => {
       msg.channel.sendMessage('Aleyküm selam');
   }
   if (msg.content.toLowerCase() === 'haxcord') {
-      msg.channel.sendMessage('HaxCord, Haksızlıktan doğan bir oyun platformudur. Yaklaşık 7 ay gibi bir süredir aktif bulunmaktadır. İlgili yönetim ekibi ve aile ortamı vardır. v4 lig maçlarını Twitch üzerinden canlı yayınlayıp anlık üyelerine aktarır. Çeşitli turnuvalar düzenleyip eğlenceli bir ortam yaratılır.');
+      msg.channel.sendMessage('HaxCord, Haksızlıktan doğan bir oyun platformudur. 30-04-2018 tarihinden 00:17:52 saatinden beri aktif. İlgili yönetim ekibi ve aile ortamı vardır. v4 lig maçlarını Twitch üzerinden canlı yayınlayıp anlık üyelerine aktarır. Çeşitli turnuvalar düzenleyip eğlenceli bir ortam yaratılır.');
   }
   if (msg.content.toLowerCase() === 's.a') {
     msg.channel.sendMessage('Aleyküm selam');
