@@ -67,6 +67,9 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === '2. sezon şampiyonu') {
     msg.channel.sendMessage('bi dakika entera basıyorum.. heh Comrades Of Heaven');
   }
+  if (msg.content.toLowerCase() === '1. sezon şampiyonu') {
+    msg.channel.sendMessage('Massive Stroke :star2: ');
+  }
   if (msg.content.toLowerCase() === '3. sezon şampiyonu') {
     msg.channel.sendMessage('Massive Stroke :star2: ');
   }
