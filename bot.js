@@ -31,6 +31,9 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sensei') {
     msg.channel.sendMessage(' :eggplant: ');
   }
+  if (msg.content.toLowerCase() === 'vidanın pozisyonu penaltımıydı?') {
+    msg.channel.sendMessage(' OLUM NET PENALTI LAN VİDANIN AÇIKCA KOLUNA ÇARPIYOR VE TOPUN ÇIKMASINI ENGELLİYOR NET PENALTI. ULAN CÜNEYT YİNE SEVDİN MAÇ BEN DE SENİ SEVEYİM');
+  }
   if (msg.content.toLowerCase() === 'itsoktocry') {
     msg.channel.sendMessage('ah kardişiimm');
   }
