@@ -42,6 +42,12 @@ client.on('message', msg => {
   }
   if (msg.content.toLowerCase() === 'twitch') {
     msg.channel.sendMessage('http://twitch.tv/itsoktocry666');
+  }  
+  if (msg.content.toLowerCase() === 'fok balığı') {
+    msg.channel.sendMessage('https://cdn.discordapp.com/attachments/467995881258483732/518591592333049870/DSC_0155.jpg');
+  }
+  if (msg.content.toLowerCase() === 'kamikaze') {
+    msg.channel.sendMessage('ataktif');
   }
   if (msg.content.toLowerCase() === '2. sezon şampiyonu') {
     msg.channel.sendMessage('bi dakika entera basıyorum.. heh Comrades Of Heaven');
