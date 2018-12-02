@@ -23,10 +23,22 @@ client.on('message', msg => {
     msg.channel.sendMessage('Bot Pingi: **' + client.ping + '** ms');
   }
   if (msg.content.toLowerCase() === 'eyüp') {
-    msg.channel.sendMessage('uff yakışıklım');
+    msg.channel.sendMessage('oğlum ağlama lan değmez eyüp şş');
   }
   if (msg.content.toLowerCase() === 'cem') {
     msg.channel.sendMessage('ah kardişiimm');
+  }
+  if (msg.content.toLowerCase() === 'itsoktocry') {
+    msg.channel.sendMessage('ah kardişiimm');
+  }
+  if (msg.content.toLowerCase() === 'leza') {
+    msg.channel.sendMessage('NOĞLUYO ORDAAA');
+  }
+  if (msg.content.toLowerCase() === 'Qésio') {
+    msg.channel.sendMessage('oğlum ağlama lan değmez eyüp şş');
+  }
+  if (msg.content.toLowerCase() === 'Coşş') {
+    msg.channel.sendMessage('KOKOREÇKOKOREÇKOKOREÇKOKOREÇKOKOREÇKOKOREÇYİYENMİNECRAFTOYNUYORDURKOKOREÇKOKOREÇKOKOREÇKOKOREÇKOKOREÇKOKOREÇ');
   }
   if (msg.content.toLowerCase() === 'coşkun') {
     msg.channel.sendMessage('Coşkun kanka bizi bi kokoreççiye götür be');
@@ -35,6 +47,9 @@ client.on('message', msg => {
     msg.channel.sendMessage('NOĞLUYO ORDAAA');
   }
   if (msg.content.toLowerCase() === 'kübra') {
+    msg.channel.sendMessage('Did you mean? Kraliçe');
+  }
+  if (msg.content.toLowerCase() === 'harris') {
     msg.channel.sendMessage('Did you mean? Kraliçe');
   }
   if (msg.content.toLowerCase() === 'site') {
