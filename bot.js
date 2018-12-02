@@ -28,6 +28,9 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === 'cem') {
     msg.channel.sendMessage('ah kardişiimm');
   }
+  if (msg.content.toLowerCase() === 'sensei') {
+    msg.channel.sendMessage(' :eggplant: ');
+  }
   if (msg.content.toLowerCase() === 'itsoktocry') {
     msg.channel.sendMessage('ah kardişiimm');
   }
