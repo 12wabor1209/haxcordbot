@@ -34,10 +34,10 @@ client.on('message', msg => {
   if (msg.content.toLowerCase() === 'leza') {
     msg.channel.sendMessage('NOĞLUYO ORDAAA');
   }
-  if (msg.content.toLowerCase() === 'Qésio') {
+  if (msg.content.toLowerCase() === 'qésio') {
     msg.channel.sendMessage('oğlum ağlama lan değmez eyüp şş');
   }
-  if (msg.content.toLowerCase() === 'Coşş') {
+  if (msg.content.toLowerCase() === 'coşş') {
     msg.channel.sendMessage('KOKOREÇKOKOREÇKOKOREÇKOKOREÇKOKOREÇKOKOREÇYİYENMİNECRAFTOYNUYORDURKOKOREÇKOKOREÇKOKOREÇKOKOREÇKOKOREÇKOKOREÇ');
   }
   if (msg.content.toLowerCase() === 'coşkun') {
